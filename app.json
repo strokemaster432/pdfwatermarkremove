@@ -12,5 +12,13 @@
             "description": "The secret key for the Django application.",
             "generator": "secret"
         }
-    }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/java"
+        }
+    ]
 }
