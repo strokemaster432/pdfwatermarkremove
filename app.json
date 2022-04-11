@@ -1,0 +1,16 @@
+{
+    "name": "Start on Heroku: Python",
+    "description": "deploy pdfwatermark removal on heroku",
+    "image": "heroku/python",
+    "repository": "https://github.com/strokemaster432/pdfwatermarkremove",
+    "keywords": [
+        "python",
+        "fastapi"
+    ],
+    "env": {
+        "SECRET_KEY": {
+            "description": "The secret key for the Django application.",
+            "generator": "secret"
+        }
+    }
+}
